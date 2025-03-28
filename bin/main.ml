@@ -13,8 +13,6 @@ let () =
   Random.init seed; *) (*initialises the random number generator, used for randomization in separators, deactivated for reproducibility*)
   fruchterman_reingold g1 1000; (*applies the fruchterman reingold algorithm to the graph*)
   scale_positions g1 0.1; (*scales the positions of the nodes in the graph*)
-  let separator, left, right = choose_random_separators g1 in (*chooses a separator and splits the graph into two parts*)
-  to_dot_with_partition_colors g1 "src/data/graph_partition.dot" separator left right; (*writes the graph in dot format to a file with partition colors, used for visualization of the separator*)
 
   let tg = get_tree_from_graph g1 50 in (*creates a tree from the graph*)
 
