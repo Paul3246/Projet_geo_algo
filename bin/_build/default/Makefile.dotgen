@@ -1,0 +1,110 @@
+all: images/leaf_28.png images/left_3.png images/separator_6.png images/leaf_18.png images/separator_8.png images/leaf_20.png images/leaf_27.png images/leaf_30.png images/separator_9.png images/leaf_24.png images/leaf_23.png images/leaf_29.png images/leaf_17.png images/leaf_15.png images/separator_1.png images/separator_13.png images/separator_12.png images/leaf_16.png images/separator_0.png images/separator_2.png images/leaf_21.png images/separator_5.png images/separator_10.png images/right_3.png images/separator_3.png images/graph_rebuilt.png images/separator_7.png images/tree.png images/leaf_25.png images/separator_11.png images/leaf_19.png images/separator_4.png images/graph.png images/separator_14.png images/leaf_22.png images/leaf_26.png 
+
+images/leaf_28.png: data/leaf_28.dot
+	neato -n -Tpng data/leaf_28.dot -o images/leaf_28.png
+
+images/left_3.png: data/left_3.dot
+	neato -n -Tpng data/left_3.dot -o images/left_3.png
+
+images/separator_6.png: data/separator_6.dot
+	neato -n -Tpng data/separator_6.dot -o images/separator_6.png
+
+images/leaf_18.png: data/leaf_18.dot
+	neato -n -Tpng data/leaf_18.dot -o images/leaf_18.png
+
+images/separator_8.png: data/separator_8.dot
+	neato -n -Tpng data/separator_8.dot -o images/separator_8.png
+
+images/leaf_20.png: data/leaf_20.dot
+	neato -n -Tpng data/leaf_20.dot -o images/leaf_20.png
+
+images/leaf_27.png: data/leaf_27.dot
+	neato -n -Tpng data/leaf_27.dot -o images/leaf_27.png
+
+images/leaf_30.png: data/leaf_30.dot
+	neato -n -Tpng data/leaf_30.dot -o images/leaf_30.png
+
+images/separator_9.png: data/separator_9.dot
+	neato -n -Tpng data/separator_9.dot -o images/separator_9.png
+
+images/leaf_24.png: data/leaf_24.dot
+	neato -n -Tpng data/leaf_24.dot -o images/leaf_24.png
+
+images/leaf_23.png: data/leaf_23.dot
+	neato -n -Tpng data/leaf_23.dot -o images/leaf_23.png
+
+images/leaf_29.png: data/leaf_29.dot
+	neato -n -Tpng data/leaf_29.dot -o images/leaf_29.png
+
+images/leaf_17.png: data/leaf_17.dot
+	neato -n -Tpng data/leaf_17.dot -o images/leaf_17.png
+
+images/leaf_15.png: data/leaf_15.dot
+	neato -n -Tpng data/leaf_15.dot -o images/leaf_15.png
+
+images/separator_1.png: data/separator_1.dot
+	neato -n -Tpng data/separator_1.dot -o images/separator_1.png
+
+images/separator_13.png: data/separator_13.dot
+	neato -n -Tpng data/separator_13.dot -o images/separator_13.png
+
+images/separator_12.png: data/separator_12.dot
+	neato -n -Tpng data/separator_12.dot -o images/separator_12.png
+
+images/leaf_16.png: data/leaf_16.dot
+	neato -n -Tpng data/leaf_16.dot -o images/leaf_16.png
+
+images/separator_0.png: data/separator_0.dot
+	neato -n -Tpng data/separator_0.dot -o images/separator_0.png
+
+images/separator_2.png: data/separator_2.dot
+	neato -n -Tpng data/separator_2.dot -o images/separator_2.png
+
+images/leaf_21.png: data/leaf_21.dot
+	neato -n -Tpng data/leaf_21.dot -o images/leaf_21.png
+
+images/separator_5.png: data/separator_5.dot
+	neato -n -Tpng data/separator_5.dot -o images/separator_5.png
+
+images/separator_10.png: data/separator_10.dot
+	neato -n -Tpng data/separator_10.dot -o images/separator_10.png
+
+images/right_3.png: data/right_3.dot
+	neato -n -Tpng data/right_3.dot -o images/right_3.png
+
+images/separator_3.png: data/separator_3.dot
+	neato -n -Tpng data/separator_3.dot -o images/separator_3.png
+
+images/graph_rebuilt.png: data/graph_rebuilt.dot
+	neato -n -Tpng data/graph_rebuilt.dot -o images/graph_rebuilt.png
+
+images/separator_7.png: data/separator_7.dot
+	neato -n -Tpng data/separator_7.dot -o images/separator_7.png
+
+images/tree.png: data/tree.dot
+	neato -n -Tpng data/tree.dot -o images/tree.png
+
+images/leaf_25.png: data/leaf_25.dot
+	neato -n -Tpng data/leaf_25.dot -o images/leaf_25.png
+
+images/separator_11.png: data/separator_11.dot
+	neato -n -Tpng data/separator_11.dot -o images/separator_11.png
+
+images/leaf_19.png: data/leaf_19.dot
+	neato -n -Tpng data/leaf_19.dot -o images/leaf_19.png
+
+images/separator_4.png: data/separator_4.dot
+	neato -n -Tpng data/separator_4.dot -o images/separator_4.png
+
+images/graph.png: data/graph.dot
+	neato -n -Tpng data/graph.dot -o images/graph.png
+
+images/separator_14.png: data/separator_14.dot
+	neato -n -Tpng data/separator_14.dot -o images/separator_14.png
+
+images/leaf_22.png: data/leaf_22.dot
+	neato -n -Tpng data/leaf_22.dot -o images/leaf_22.png
+
+images/leaf_26.png: data/leaf_26.dot
+	neato -n -Tpng data/leaf_26.dot -o images/leaf_26.png
+

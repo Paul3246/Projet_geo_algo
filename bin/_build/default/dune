@@ -1,0 +1,4 @@
+(executable
+ (name spring_opt)
+ (modules spring_opt graph embedder separator tree tutte)
+ (libraries lacaml))

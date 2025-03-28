@@ -1,0 +1,3 @@
+(executable
+ (name spring_opt)
+ (libraries geograph))
