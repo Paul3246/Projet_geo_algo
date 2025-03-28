@@ -14,7 +14,7 @@ let () =
   fruchterman_reingold g1 1000; (*applies the fruchterman reingold algorithm to the graph*)
   scale_positions g1 0.1; (*scales the positions of the nodes in the graph*)
 
-  let tg = get_tree_from_graph g1 50 in (*creates a tree from the graph*)
+  let tg = get_tree_from_graph g1 50 in (*creates a tree from the graph with precision 50, change the precision to get a different tree*)
 
   let g' = reconstruct_graph tg in (*reconstructs the graph from the tree, used for testing purposes*)
   to_dot_with_coords g' "src/data/graph_rebuilt.dot";
