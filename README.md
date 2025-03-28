@@ -5,11 +5,11 @@ This project provides an approximate solution to the Minimum Dominating Set (MDS
 ## Requirements
 
 - **OCaml** and **Dune** (for building the project).
-- **Z3** solver, installed via [smtml](https://github.com/formalsec/smtml).
-  - For example, you can install them with:
-    ```bash
-    opam install smtml z3
-    ```
+- **Z3** SMT solver, installed via [smtml](https://github.com/formalsec/smtml).
+- You can install the dependencies using:
+  ```bash
+  opam install smtml z3
+  ```
 
 ## Installation and Usage
 
@@ -18,7 +18,9 @@ This project provides an approximate solution to the Minimum Dominating Set (MDS
 3. From the root directory of the repository, run:
    ```bash
    make run
-4. Once executed visualisations are available in src/data (the statistics of the solution are also given via the terminal)
+4. After execution:
+  - Visualisations are available in src/data
+  - Statistics are printed in the terminal
 
 ## Report
-- A report can be found explaining the details of the project (available in french)
+- The report explaining the algorithmic details, design decisions, performance results, and benchmarks is available as `Rapport_projet_geo_algo.pdf` (written in French).
