@@ -19,3 +19,6 @@ This project provides an approximate solution to the Minimum Dominating Set (MDS
    ```bash
    make run
 4. Once executed visualisations are available in src/data (the statistics of the solution are also given via the terminal)
+
+## Report
+- A report can be found explaining the details of the project (available in french)
