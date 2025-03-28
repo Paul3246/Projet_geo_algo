@@ -21,7 +21,8 @@ let f_repul k d = (*repulsive force function*)
 let f_attract k d = (*attractive force function*)
   d ** 2. /. k
 
-let theta = 0.351  (* Barnes-Hut approximation threshold *)
+let theta = 0.351  (* Barnes-Hut approximation threshold, the change of this value twitches the precision of the barnes hut approximation*)
+(*the current value is the one that gives the best results experimentally*)
 
 let rec compute_repulsive_force qt x y k = (*computes the repulsive force on a node at position x, y*)
   match qt with
